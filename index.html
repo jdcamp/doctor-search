@@ -19,16 +19,18 @@
     </div>
   </div>
   <div class="container">
-    <h3>Doctor Search</h3>
-    <form class="search-form" action="">
-      <label for="name">Search</label><br>
-      <input type="text" name="name" value="" required>
-      <select id="search-option">
+    <div id="search">
+      <h3>Doctor Search</h3>
+      <form class="search-form" action="">
+        <label for="name">Search</label><br>
+        <input type="text" name="name" value="" class="form-control" required>
+        <select id="search-option">
         <option value="name">Name</option>
         <option value="ailment">Ailment</option>
       </select>
-      <button type="submit" name="button">Search</button>
-    </form>
+        <button type="submit" name="button">Search</button>
+      </form>
+    </div>
     <div class="results"></div>
   </div>
 

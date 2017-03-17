@@ -18,12 +18,12 @@ A website to search for doctors using the BetterDoctor api
 
 * Clone repository
 * In the root directory create a file named '.env'
-* In the .env 'file place exports.apiKey = "YOUR_API_KEY";' where YOUR_API_KEY is a valid BetterDoctor api key.
+* In the .env file place ```exports.apiKey = "YOUR_API_KEY";``` where YOUR_API_KEY is a valid BetterDoctor api key.
 * Open terminal and go to the project root directory
-* In the terminal run '$ npm install'
-* In the terminal run '$ bower install'
-* In the terminal run '$ gulp build'
-* In the terminal run '$ gulp serve'
+* In the terminal run ```$ npm install```
+* In the terminal run ```$ bower install```
+* In the terminal run ```$ gulp build```
+* In the terminal run ```$ gulp serve```
 
 ## Known Bugs
 * The ailment search is a general search function. It searches through all fields. There is no api call for symptoms

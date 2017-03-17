@@ -1,11 +1,13 @@
 $header : #e8f1ff;
+body {
+  font-family: sans-serif;
+}
 .profile-template {
     box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 85%;
     margin: auto;
+    width: 85%;
     padding: 10px;
     margin-top: 10px;
-    font-family: sans-serif;;
 }
 
 .profile-picture-format {
@@ -15,6 +17,11 @@ $header : #e8f1ff;
   height: 175px;
   padding: 10px;
   background-color: $header;
+}
+#search{
+  margin: auto;
+  width: 85%;
+  padding: 10px;
 }
 #header-title{
   text-align: center;
@@ -28,4 +35,7 @@ $header : #e8f1ff;
 }
 #attribution {
   font-size: 11px;
+  margin: auto;
+  width: 85%;
+  padding: 10px;
 }
