@@ -6,7 +6,7 @@ var displayResults = function(doctors) {
       $('.results').append('<div class="profile-template">' +
             '<div class="container">' +
             '<div class="row">' +
-            '<div class="col-sm-3">' +
+            '<div class="col-sm-2">' +
             '<div class="row">' +
             '<img src="' + doctors.data[i].profile.image_url + '" alt="No image" class="profile-picture-format" />' +
             '</div>' +
@@ -16,18 +16,17 @@ var displayResults = function(doctors) {
             '</div>' +
             '<div class="col-sm-5">' +
             '<div class="row">' +
-            '<h5>Office Location</h5>' +
+            '<h4>Office Location</h4>' +
             '<p>' +
             doctors.data[i].practices[0].name + "<br>" +
             doctors.data[i].practices[0].visit_address.street + "<br>" +
             doctors.data[i].practices[0].visit_address.city + ", " + doctors.data[i].practices[0].visit_address.state + " " + doctors.data[i].practices[0].visit_address.zip +
-            '/<p>'+
+            '</p>'+
             '</div>' +
             '</div>' +
             '</div>' +
             '</div>' +
             '</div>');
-
     }
 };
 $(document).ready(function() {
