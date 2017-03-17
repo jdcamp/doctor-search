@@ -47,9 +47,10 @@ $(document).ready(function() {
     $('.search-form').submit(function(e) {
         e.preventDefault();
         var search = $('input[name="name"]').val();
-        var searchBy = $('input[search-option="name"]').val();
+        var searchBy = $('#search-option :selected').val();
+        console.log(searchBy);
         if (searchBy === 'name') {
-          Doctor.getDoctorsbyName(search, displayResults);
+          Doctor.getDoctorsByName(search, displayResults);
         } else {
           Doctor.getDoctors(search, displayResults);
         }
