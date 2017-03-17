@@ -13,8 +13,7 @@ A website to search for doctors using the BetterDoctor api
 * [Bower](https://bower.io/)
 * [BetterDoctor Api Key](https://developer.betterdoctor.com/)
 
-## Setup/Installation Requirements
-
+## Setup
 
 * Clone repository
 * In the root directory create a file named '.env'
@@ -34,8 +33,6 @@ A website to search for doctors using the BetterDoctor api
 |----------| ----- | ------ |        
 |Returns doctors based on symptom|search-form = 'Toothache'|doctors = ['Foo','Bar']|
 |Returns doctors based on Name|search-form = 'Foo'|doctors = ['Foo']|
-
-
 
 ## Support and contact details
 no support
