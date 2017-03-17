@@ -9,9 +9,9 @@
 A website to search for doctors using the BetterDoctor api
 
 ## Installation Requirements
-* Node.js: <http://nodejs.org>
-* Bower: <https://bower.io/>
-* BetterDoctor Api Key: <https://developer.betterdoctor.com/>
+* [Node.js](http://nodejs.org)
+* [Bower](https://bower.io/)
+* [BetterDoctor Api Key](https://developer.betterdoctor.com/)
 
 ## Setup/Installation Requirements
 
@@ -26,7 +26,7 @@ A website to search for doctors using the BetterDoctor api
 * In the terminal run '$ gulp serve'
 
 ## Known Bugs
-* No known bugs
+* The ailment search is a general search function. It searches through all fields. There is no api call for symptoms
 
 ## Specifications
 
