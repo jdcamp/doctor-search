@@ -20,6 +20,8 @@ var lib = require('bower-files')({
 });
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
+var sass = require('gulp-sass');
+var sourcemaps = require('gulp-sourcemaps');
 
 var buildProduction = utilities.env.production;
 
