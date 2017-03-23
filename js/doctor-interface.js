@@ -2,10 +2,10 @@ var Doctor = require('./../js/doctor.js');
 var displayResults = function(doctors) {
     $('.results').text('');
     for (var i = 0; i < doctors.data.length; i++) {
-      listStr = '<ul class="list-group">'
+      listStr = '<ul class="list-group">';
       for (var j = 0; j < doctors.data[i].specialties.length; j++) {
         var specialty = doctors.data[i].specialties[j].name;
-        listStr = listStr + '<li class="list-group-item">'+specialty+'</li>'
+        listStr = listStr + '<li class="list-group-item">'+specialty+'</li>';
       }
       listStr = listStr +'<ul>';
       $('.results').append('<div class="profile-template">' +
@@ -36,7 +36,7 @@ var displayResults = function(doctors) {
         '</div>' +
       '</div>' +
       '</div>' +
-      '</div>'););
+      '</div>');
     }
     $('.results').append('<p id="attribution">powered by <a href="https://betterdoctor.com">https://betterdoctor.com</a></p>');
 };
